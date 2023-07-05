@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.security.demoserver.DemoServerApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-04T22:52:47" hostname="MacBook-Pro-de-Mario.local" time="1.574">
+  <properties/>
+  <testcase name="contextSecureLoads()" classname="com.example.security.demoserver.DemoServerApplicationTests" time="1.574"/>
+  <system-out><![CDATA[Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
+17:52:45.496 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.security.demoserver.DemoServerApplicationTests]: DemoServerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:52:45.575 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.security.demoserver.DemoServerApplication for test class com.example.security.demoserver.DemoServerApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.1)
+
+2023-07-04T17:52:45.904-05:00  INFO 59079 --- [    Test worker] c.e.s.d.DemoServerApplicationTests       : Starting DemoServerApplicationTests using Java 17.0.4 with PID 59079 (started by martz in /Users/martz/Documents/source/gd/https-example/demo-server)
+2023-07-04T17:52:45.905-05:00  INFO 59079 --- [    Test worker] c.e.s.d.DemoServerApplicationTests       : The following 1 profile is active: "test"
+2023-07-04T17:52:46.681-05:00  INFO 59079 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (https)
+2023-07-04T17:52:46.697-05:00  INFO 59079 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-04T17:52:46.698-05:00  INFO 59079 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-04T17:52:46.770-05:00  INFO 59079 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-04T17:52:46.772-05:00  INFO 59079 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 846 ms
+Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
+2023-07-04T17:52:47.292-05:00  INFO 59079 --- [    Test worker] o.a.t.util.net.NioEndpoint.certificate   : Connector [https-jsse-nio-auto-1], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [/Users/martz/.keystore] using alias [server-cert] and with trust store [null]
+2023-07-04T17:52:47.300-05:00  INFO 59079 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 49793 (https) with context path ''
+2023-07-04T17:52:47.307-05:00  INFO 59079 --- [    Test worker] c.e.s.d.DemoServerApplicationTests       : Started DemoServerApplicationTests in 1.619 seconds (process running for 2.501)
+2023-07-04T17:52:48.908-05:00  INFO 59079 --- [o-auto-1-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-04T17:52:48.908-05:00  INFO 59079 --- [o-auto-1-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-04T17:52:48.909-05:00  INFO 59079 --- [o-auto-1-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
