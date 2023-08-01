@@ -1,6 +1,6 @@
 # Demo Server
 
-Springboot demo application using HTTPs.
+Springboot demo application using HTTPs and SSL commands.
 
 ## Build
 
